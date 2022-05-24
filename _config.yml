@@ -1,0 +1,99 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: 게임 프로젝트 블로그 (by Sinho)
+# Description of the Site
+description: Sinho's Game Project Blog
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://user-images.githubusercontent.com/101621868/167299084-c8f88d48-3451-483a-a5e6-c38a5b26b662.jpg
+
+# https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: konggamman@gmail.com
+facebook_username: /
+twitter_username: /
+instagram_username: /
+linkedin_username: /
+github_username:  sinho89
+youtube_channel_id: /
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: sinho89
+
+# Name of the Author
+author-name: sinho89
+# URL for the Image of the Author
+author-image: https://user-images.githubusercontent.com/101621868/167300313-e31a328f-9caa-4328-9c76-11b990c8360e.png
+# 60 Words About the Author
+author-about: RPG게임을 좋아하는 게임 개발자의 프로젝트 블로그
+              
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/sinho89
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

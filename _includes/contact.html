@@ -1,0 +1,22 @@
+<section class="hero is-fullheight has-text-centered" id="contact">
+    <div class="hero-body">
+        <div class="container">
+            {% unless site.email == %}
+            <a id="contact-button" href="mailto:{{site.email}}"
+                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                target="_blank">
+                <i class="fas fa-envelope"></i> 이메일 보내기
+            </a>
+            {% endunless %}
+            <hr>
+            <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+                깃허브
+            </h3>
+            <div class="column is-full is-size-3">
+                {% unless site.github_username ==  %}
+                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
+                {% endunless %}
+            </div>
+        </div>
+    </div>
+</section>
