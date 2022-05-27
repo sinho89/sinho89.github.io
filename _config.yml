@@ -20,7 +20,7 @@ title                    : "게임을 즐기고 만드는 Blog"
 title_separator          : "-"
 subtitle                 : "게임 개발, 게임 가이드, 일상 등을 적는 공간" # site tagline that appears below site title in masthead
 name                     : "Sinho"
-description              : "初心"
+description              : "**初心**<br> 게임을 좋아하는 개발자의 일상"
 url                      : "https://sinho89.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/sinho89/sinho89.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,14 +103,14 @@ analytics:
 # Site Author
 author:
   name             : "Sinho"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://user-images.githubusercontent.com/101621868/170703806-cc413be5-f0fe-40a1-9f36-b2218ecbd8ca.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "初心 :)"
   location         : "대한민국"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:konggamman@gmail.com
+      url: mailto:sinho8976@gmail.com
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sinho89"
@@ -123,7 +123,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:konggamman@gmail.com
+      url: mailto:sinho8976@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -282,3 +282,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout : single
+      author_profile: true
