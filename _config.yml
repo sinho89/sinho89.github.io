@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "게임을 즐기고 만드는 Blog"
 title_separator          : "-"
-subtitle                 : "게임 개발 일지, 게임 가이드, 일상 등을 적는 공간" # site tagline that appears below site title in masthead
+subtitle                 : "게임 개발, 게임 가이드, 일상 등을 적는 공간" # site tagline that appears below site title in masthead
 name                     : "Sinho"
 description              : "初心"
 url                      : "https://sinho89.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
