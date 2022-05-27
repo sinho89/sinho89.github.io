@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Kang Sinho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "RPG게임을 즐겨하는 게임 개발자입니다 :)"
+  bio              : "RPG게임을 좋아하는 게임 개발자 블로그 :)"
   location         : "대한민국"
   email            :
   links:
