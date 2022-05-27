@@ -1,7 +1,7 @@
 ---
 title: "Win API 프로젝트 (디아블로2 모작)"
 layout: archive
-permalink: categories/API
+permalink: categories/api
 author_profile: true
 sidebar_main: true
 ---
