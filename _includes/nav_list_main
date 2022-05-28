@@ -17,15 +17,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DX93D" %}
-                        <li><a href="/categories/dx93d" class="">DirectX9 3D Project ({{category[1].size}})</a></li>
+                    {% if category[0] == "DX3D" %}
+                        <li><a href="/categories/dx3d" class="">DirectX 3D Project ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DX92D" %}
-                        <li><a href="/categories/dx92d" class="">DirectX9 2D Project ({{category[1].size}})</a></li>
+                    {% if category[0] == "DX2D" %}
+                        <li><a href="/categories/dx2d" class="">DirectX 2D Project ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
