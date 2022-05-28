@@ -1,5 +1,5 @@
 ---
-title:  "[DirectX 3D] 3D RPG 드래곤네스트 모작 (mock-up)"
+title:  " :computer: [DirectX 3D] 3D RPG 드래곤네스트 모작 (mock-up)"
 
 categories:
   - DX3D
